@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+nav {
+    background-color: #512da8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav-left, .nav-center {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nav-left {
+    margin-right: auto; /* Ajusta para mover "Tecnologías Web" más a la derecha */
+}
+
+header {
+    background-color: #673ab7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px; /* Agrega margen arriba para separar del menú de navegación */
+}
+
+section {
+    padding: 20px;
+}
+
+.about-us, .works {
+    margin-bottom: 20px;
+}
+
+.person-info {
+    display: flex;
+    align-items: center;
+}
+
+.person-info img {
+    border-radius: 50%;
+    margin-right: 20px;
+    max-width: 100px; /* Ajusta el ancho máximo de las imágenes */
+    max-height: 100px; /* Ajusta la altura máxima de las imágenes */
+}
+
+.works-list {
+    list-style: none;
+    padding: 0;
+}
+
+.works-list-item {
+    margin-bottom: 10px;
+}
+
+/* Estilo para el contenido fuera de la barra */
+.container section {
+    width: 100%; /* Ajusta el ancho del contenido */
+    margin: 0; /* Elimina el margen para que esté a la izquierda */
+    max-width: none; /* Elimina el ancho máximo para que ocupe todo el ancho disponible */
+}
+
